@@ -1,6 +1,6 @@
 # opencode-brave-websearch
 
-An OpenCode v2 plugin that registers [Brave Search](https://brave.com/search/api/) as a websearch provider.
+An OpenCode v2 plugin that registers [Brave Search API](https://brave.com/search/api/) as a websearch provider.
 
 ## Configuration
 
