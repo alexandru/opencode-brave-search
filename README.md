@@ -1,5 +1,7 @@
 # opencode-brave-websearch
 
+[![npm version](https://img.shields.io/npm/v/opencode-brave-websearch)](https://www.npmjs.com/package/opencode-brave-websearch)
+
 An OpenCode v2 plugin that registers [Brave Search API](https://brave.com/search/api/) as a websearch provider.
 
 ## Configuration
