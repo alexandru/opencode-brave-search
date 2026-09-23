@@ -1,0 +1,41 @@
+{
+  "name": "opencode-brave-websearch",
+  "version": "0.1.0",
+  "description": "Brave Search websearch provider for OpenCode.",
+  "type": "module",
+  "main": "./index.ts",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "files": [
+    "index.ts",
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "check": "tsc --noEmit",
+    "test": "bun test test/unit",
+    "test:integration": "bun test test/integration",
+    "prepublishOnly": "bun run check && bun run test && bun run test:integration"
+  },
+  "dependencies": {
+    "@opencode/plugin": "2.0.15",
+    "effect": "4.0.0-rc.112"
+  },
+  "devDependencies": {
+    "@types/bun": "1.4.2",
+    "typescript": "7.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandru/opencode-brave-search.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexandru/opencode-brave-search/issues"
+  },
+  "homepage": "https://github.com/alexandru/opencode-brave-search#readme",
+  "keywords": ["opencode", "plugin", "brave", "websearch"],
+  "engines": {
+    "bun": ">=1.4.2"
+  }
+}
