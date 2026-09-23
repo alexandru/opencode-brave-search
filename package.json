@@ -1,13 +1,15 @@
 {
   "name": "opencode-brave-websearch",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Brave Search websearch provider for OpenCode.",
+  "license": "MIT",
   "type": "module",
   "main": "./index.ts",
   "exports": {
     ".": "./index.ts"
   },
   "files": [
+    "LICENSE",
     "index.ts",
     "src",
     "README.md"
